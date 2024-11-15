@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    background-color: rgb(242, 235, 23);
+    margin: 0;
+    width: auto;
+}
+.blue{
+    margin: 0px;
+    padding: 30px;
+    background-color: aqua;
+    /* border: coral; */
+    border: solid 17px green;
+    width: 310px;
+    height: 300px;
+    overflow: scroll;
+}
+
+.green{
+    margin: 0px;
+    padding: 30px;
+    background-color: aqua;
+    /* border: coral; */
+    border: solid 17px green;
+    width: 310px;
+    height: 300px;
+    overflow: scroll; 
+}

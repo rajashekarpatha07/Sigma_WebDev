@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Design</title>
+    <style>
+        /* Styling the main container */
+        .box {
+            border: 2px solid black;
+            border-radius: 10px;
+            width: 300px;
+            height: auto;
+            margin: 20px auto;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Image section */
+        .image {
+            text-align: center;
+            padding: 10px;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        /* Tags section */
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin: 10px 0;
+        }
+
+        .tags span {
+            padding: 5px 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            font-size: 0.9rem;
+        }
+
+        /* Title */
+        .title {
+            text-align: center;
+            font-size: 1.2rem;
+            margin: 10px 0;
+            font-weight: bold;
+        }
+
+        /* Description */
+        .para {
+            padding: 0 15px;
+            text-align: justify;
+            line-height: 1.5;
+            font-size: 0.95rem;
+            color: #333;
+        }
+
+        /* Button */
+        .button {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+
+        .button button {
+            padding: 10px 20px;
+            background-color: rgba(13, 189, 220, 0.5);
+            border: 2px solid black;
+            border-radius: 10px;
+            color: blue;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <!-- Image Section -->
+        <div class="image">
+            <img id="image" src="card.png" alt="Nature Image">
+        </div>
+
+        <!-- Tags Section -->
+        <div class="tags">
+            <span>Nature</span>
+            <span>Lake</span>
+        </div>
+
+        <!-- Title Section -->
+        <div class="title">Lorem ipsum dolor sit amet.</div>
+
+        <!-- Description Section -->
+        <div class="para">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis debitis eligendi doloremque provident
+                dolores voluptas quis sapiente optio quos nulla, soluta ex mollitia beatae voluptatem.
+            </p>
+        </div>
+
+        <!-- Button Section -->
+        <div class="button">
+            <button>Read More</button>
+        </div>
+    </div>
+</body>
+
+</html>
