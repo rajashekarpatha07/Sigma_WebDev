@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(assets/images/bg.jpg);
+    height: 80vh;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    
+}
+.main .box{
+    background-color: black;
+    height: 80vh;
+    opacity: 0.44;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+nav{
+    max-width: 70vw;
+    display: flex;  
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+
+
+nav img{
+    color:red;
+    width: 114px;
+    z-index: 20;
+    position: relative;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}

@@ -1,0 +1,3 @@
+ it is new line that is created using fs module and promises...!
+ its a new line appended using append function..!
+ its a new line appended using append function..!

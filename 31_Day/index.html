@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media query</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            margin: 0;
+            padding: 0;
+        }
+        .boxes{
+            display: flex;
+            
+        }
+        
+        .box{
+            width: 300px;
+            background-color: yellow;
+            height: 400px;
+            margin: 3px;
+            padding: 6px;
+        }
+        @media screen and (max-width: 450px) {
+            body{
+                background-color: cadetblue;
+            }
+            .boxes{
+                flex-direction: column;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>

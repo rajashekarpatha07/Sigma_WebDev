@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        nav {
+            background-color: rgb(227, 23, 146);
+            
+            
+        }
+
+        nav ul li {
+            list-style: none;
+            padding: 15px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        .box {
+            display: flex;
+            position: relative;
+            margin: 4px;
+            width: 99vw;
+            height: 60vh;
+            background-color: green;
+            justify-content: center;
+
+
+        }
+
+        .box .box1 {
+            margin: 14px;
+            background-color: rgb(235, 152, 206);
+            width: 49.5vw;
+            height: 55vh;
+            border: 2px solid white;
+        }
+
+        .box2 {
+            background-color: rgb(0, 255, 234);
+        }
+        .info{
+            margin: 10px;
+            padding: 40px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 25px;
+        }
+        .info p{
+            font-size: 50px;
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            background-color: gray;
+            margin: 10px;
+            border: 2px solid white;
+            border-radius: 18px;
+            text-align: center;        }
+        .footer .logo{
+            background-color: white;
+            border-radius: 50px;
+            width: 56px;
+            height: 57px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            
+        
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home" style="text-decoration: none; color: white;">Home</a></li>
+            <li><a href="#home" style="text-decoration: none; color: white;">About</a></li>
+            <li><a href="#home" style="text-decoration: none; color: white;">Contct us</a></li>
+
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="box">
+            <div class="box1"></div>
+            <div style="background-color: rgb(0, 191, 255);" class="box2 box1"></div>
+        </div>
+        <div class="info">
+            <p>
+                sigma Web devlopment is amazing
+            </p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+        
+            <p>copyright 2022 sigma web development</p>
+            <div class="logo">
+                a
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

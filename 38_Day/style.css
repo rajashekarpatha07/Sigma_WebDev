@@ -1,0 +1,20 @@
+.container {
+    border: 2px solid red;
+    display: flex;
+    /* justify-content: space-around;     */
+    /*justify-content: center;*/
+    justify-content: flex-start;
+    /* align-items: center; */
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 90vh;
+    align-items: flex-start;
+}
+.item{
+    height: 92px;
+    width: 92px;
+    background-color: aqua;
+    margin: 4px;
+    border: 2px solid black;
+}
